@@ -1,0 +1,282 @@
+@media(max-width : 1200px) {
+.menu-icon{
+display: block;
+}
+
+.nav {
+position: absolute;
+right: -100%;
+top: 0;
+background-color: white;
+padding: 20px;
+flex-direction: column;
+width: 350px;
+align-items: normal;
+height: 100vh;
+transition: 0.5s ease;
+box-shadow: 0 0 5px 0 #f6f6f6;
+}
+
+.nav li a{
+color: #7f7f90;
+}
+
+.nav li .active{
+color: black;
+}
+
+body:has(.dark-mode input:checked) .nav li a:hover{
+color: black;
+}
+
+
+
+.close-menu{
+display: block;
+}
+
+
+}
+
+
+
+@media (max-width : 640px) {
+.container{
+width: 95%;
+}
+
+.home{
+min-height: 100vh !important;
+padding: 70px 0;
+}
+
+
+
+.home .container{
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+
+.home .container .home-image{
+width: 100%;
+order: -1;
+}
+
+.home .container .home-text{
+width: 100%;
+}
+
+.home-btns{
+margin-top: 40px;
+justify-content: center;
+flex-direction: column;
+row-gap: 30px;
+}
+
+.h-btn-1{
+border-radius: 50px;
+}
+
+
+
+.chefs .container {
+flex-direction: column;
+row-gap: 100px;
+column-gap: 0;
+}
+
+.chefs .box{
+width: 100%;
+}
+
+ 
+
+.gallery .container{
+flex-wrap: wrap;
+}
+
+
+
+.gallery-images {
+flex-basis : 100%;
+}
+
+
+
+.contact-content{
+flex-direction: column;
+justify-content: normal;
+align-items: normal;
+flex-wrap: wrap;
+column-gap: 0;
+row-gap: 20px;
+}
+
+
+.contact-box{
+width: 100%;
+}
+
+
+
+form{
+align-items: flex-start;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.form form .text , .email{
+flex-basis:  100%;
+}
+
+
+
+
+}
+
+
+@media(min-width : 641px) and (max-width : 768px) {
+.container{
+width: 95%;
+}
+
+
+.home{
+min-height: 100vh !important;
+padding: 70px 0;
+}
+
+
+
+.home .container{
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+
+.home .container .home-image{
+width: 100%;
+order: -1;
+}
+
+.home .container .home-text{
+width: 100%;
+}
+
+.home-btns{
+margin-top: 40px;
+justify-content: center;
+}
+
+
+.h-btn-1{
+border-radius: 50px;
+}
+
+.chefs .container {
+flex-direction: column;
+row-gap: 100px;
+column-gap: 0;
+}
+
+.chefs .box{
+width: 100%;
+}
+
+.gallery .container{
+flex-wrap: wrap;
+width: 100%;
+gap: 10px;
+}
+
+.gallery-images{
+flex-basis: 100%;
+}
+
+
+.contact-content{
+flex-direction: column;
+justify-content: normal;
+align-items: normal;
+flex-wrap: wrap;
+column-gap: 0;
+row-gap: 20px;
+}
+
+
+.contact-box{
+width: 100%;
+}
+
+
+
+    
+
+
+}
+
+
+@media (min-width : 769px) and (max-width : 992px) {
+.container{
+width: 95%;
+}
+
+.h-btn-1{
+border-radius: 50px;
+}
+    
+
+.home{
+min-height: 100vh !important;
+padding: 70px 0;
+}
+
+
+
+.home .container{
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+
+.home .container .home-image{
+width: 100%;
+order: -1;
+}
+
+.home .container .home-text{
+width: 100%;
+}
+
+.home-btns{
+margin-top: 40px;
+justify-content: center;
+}
+
+.chefs .box {
+width: calc((100% / 2) - 40px);
+}
+
+
+
+}
+
+
+
+
+@media(min-width : 993px) and (max-width : 1200px) {
+.container{
+width: 100%;
+}
+
+
+
+
+}
+
+
+
